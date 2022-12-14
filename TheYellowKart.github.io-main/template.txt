@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Yellow Kart </title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="1.css">
+
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+ 	<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@600&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" type="text/css" href="navbar.css">
+ 	<div class="n" id="jo">
+ 		<div class="yellowtop"><a class="lt" href="index.html">The Yellow Kart</a></div> 
+ 		<div class="n1">
+ 			<div class="yellowd"><a class="yellow" href="index.html">Home</a></div> 
+ 			<div class="yellowd"><a class="yellowactive" href="productz.html">Products</a></div> 
+ 			<div class="yellowd"><a class="yellow" href="contact.html">Contact</a></div> 
+ 			<div class="yellowd"><a  class="yellow" href="about.html">About</a></div> 
+ 		</div>
+
+ 		<div class="ham">
+ 			<div class="barz" id="hamburger-icon" onclick="toggleMobileMenu(this)">
+ 				<div class="bar1"></div>
+ 				<div class="bar2"></div>
+ 				<div class="bar3"></div>
+
+ 				<ul class="mobile-menu" style="list-style-type:none;">
+ 					<li><a class ="mob" href="index.html"> Home</a></li>
+ 					<li><a class ="mob" href="productz.html">Products</a></li>
+ 					<li><a class ="mob" href="contact.html">Contact </a></li>
+ 					<li><a class ="mob" href="about.html">About</a></li>
+ 				</ul>
+ 			</div>
+ 		</div>
+
+ 	</div>
+ 	<script src="navbar.js" type="text/javascript"></script>
+<!-- 	<div class="containerz">
+		<div class="toplogo">
+			<img class="mylogo" src="Blogo.png" height="60px" width="60px">
+
+		</div>
+		
+
+		<div class="topnav">
+			<div> <a  href="index.html">Home</a></div>
+			<div> <a    class="active"  href="All Products.html">Products</a></div>
+			<div> <a href="contact.html">Contact Us</a></div>
+			<div> <a href="about.html">About Us</a></div>
+
+		</div>
+	</div>
+	<br>
+	<br> -->
+
+	<!-----------Single Product ------------------>
+
+	<div class="cat-container Single-Product">
+		<div class="row">
+			<div class="col1">
+				<img src="cloud2.jpg" width="60%">
+			</div>
+			<div class="col1">
+				<p> Home/ Headphones </p>
+
+
+
+				<!-- PRODUCT NAME AND PRICE -->
+
+				<h1> Cloud II Gaming By HyperX </h1>
+				<h4> $66 </h4>
+
+
+
+
+
+				<h3> Product Details <i class="fa fa-indent"></i> </h3>
+				<br>
+
+				<!-- PRODUCT DETAILS -->
+
+
+				<p>desc </p>	
+
+
+			</div>
+		</div>	
+	</div>
+	<!-- 	PRODUCT ID MENTION -->
+
+
+	<h1 class="pid">PRODUCT ID: 0000</h1>
+
+
+
+	<script src="https://www.cognitoforms.com/f/seamless.js" data-key="bFwy9zvQUk2CnXY3wZBt5w" data-form="1"></script>
+	<form src="https://www.cognitoforms.com/YellowKart1/Orders"></form>
+	<br>
+	<!---------- title -------------->
+	<div class="car-container">
+		<div class="row">
+			<h2> Related Product </h2>
+			<p> View More</p>
+		</div>	
+	</div>
+	<!----------- Products -------------->
+
+	<div class="cat-container">
+		<div class="row">
+
+
+			<!-- 	RELATED PRODUCT 1 -->
+
+
+			<div class="col3">
+				<a href="p-Details2.html">	
+					
+					<!-- <h4> Nvidia RTX 3080ti </h4> -->
+					<img src="3080.jpg">
+					<h4> Nvidia RTX 3080ti </h4>
+					
+				</a>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-half-o" aria-hidden="true"></i>
+				</div>
+				<p> PKR 128,000 </p>	
+				
+			</div>
+
+
+			<!-- 	RELATED PRODUCT 2 -->
+
+
+
+			<div class="col3">
+				<a href="p-Details4.html">
+					
+					
+					<img src="k95.jpg">
+					<h4> Corsair Gaming k95 Platinum </h4>
+				</a>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+
+				</div>
+				<p> PKR 24,999 </p>		
+				
+			</div>
+
+
+
+
+			<!-- 	RELATED PRODUCT 3 -->
+
+
+
+
+			<div class="col3">
+				<a href="p-Details6.html">	
+					
+					
+					<img src="ram1.jpg">
+					<h4> CORSAIR VENGEANCE RGB PRO </h4>
+				</a>
+				<div class="rating">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+				</div>
+				<p> PKR 19,999 </p>	
+				
+			</div>
+		</div>
+	</div>
+	<!-- 					WHATSAPP FLOAT -->
+	<h1 	 class="floatingx" target="_blank">Click Below <br> &#8595 &#8595 &#8595  </h1>
+	<h1  class="floating" target="_blank">Order Now  </h1>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+	<a href="https://api.whatsapp.com/send?phone=923425632635&text=Hey I want to order a product" class="float" target="_blank" > 
+		<i class="fa fa-whatsapp my-float"></i>
+	</a>
+
+	<!----------Footer-------->
+
+
+	<div class="footer-basic">
+
+
+		<footer>
+			<div class="footin">
+				<div class="ollow">
+					<h3 class="footh33">Follow Us On </h3>
+				</div>
+				<div class="social"><a class="insta" href="https://www.instagram.com/the.yellow.kart/" target=”_blank”><i class="icon ion-social-instagram"></i></a><a class="whatsapp" href="https://api.whatsapp.com/send?phone=923425632635&text=Hey I want to order a product" target=”_blank”><i class="icon ion-social-whatsapp" ></i></a><a href="https://www.facebook.com/The-Yellow-Kart-107056228620121" target=”_blank” class="fb"><i class="icon ion-social-facebook"></i></a></div>
+				<div class="para">
+					<h3 class="footh3">           Best Selling Products only on Yellow Kart</h3>
+				</div>
+				<div class="cx">
+					<p class="copyright">© The Yellow Kart 2022 </p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+</html>
